@@ -2,8 +2,10 @@
     text-align: center;
 }
 #home_title{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #home_texto{
     color: black;
