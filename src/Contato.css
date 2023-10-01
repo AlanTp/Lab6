@@ -1,0 +1,21 @@
+#contato_body{
+    text-align: center;
+}
+#contato_title{
+    margin-top: 5px;
+    margin-bottom: 50px;
+    color: rgb(1, 1, 13);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+ul{
+    list-style: none;
+}
+#contato_botao{
+    margin-top: 10px;
+}
+#contato_link{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}

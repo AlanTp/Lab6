@@ -1,14 +1,17 @@
 import react from 'react';
+import './Home.css';
+import Button from '@mui/material/Button';
+import {Link }from 'react-router-dom';
 
 
 const Home = () =>{
 
     return(
-        <div>
+        <div id='home_body'>
           
-            <h1> Home</h1>
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fringilla quis elit vitae mattis. Etiam sed eros cursus, congue nisl in,
+            <h1 id='home_title'> Home</h1>
+            <div id='home_texto'>
+                <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fringilla quis elit vitae mattis. Etiam sed eros cursus, congue nisl in,
                  malesuada diam. Curabitur molestie ligula a odio vehicula, malesuada finibus turpis pulvinar. Nam purus ligula, maximus ac arcu dignissim,
                  eleifend tristique nibh. Quisque ultrices non massa a ullamcorper. Mauris nec urna sit amet justo iaculis dignissim. Vestibulum libero 
                  ligula, euismod ut libero sit amet, sagittis imperdiet urna. Pellentesque vitae tortor non quam finibus posuere. Nam accumsan mollis ipsum 
@@ -24,10 +27,11 @@ const Home = () =>{
                  a aliquam mauris eros in est. Fusce ac pharetra massa. In ullamcorper, massa a eleifend dictum, lacus enim mattis nisl, id ultricies turpis ante nec 
                  ex. Vestibulum at rutrum nulla, ut molestie ante. Morbi scelerisque pharetra diam, eget hendrerit leo hendrerit et. Sed porta interdum erat, 
                  id tincidunt ligula facilisis nec.
-                 </p>
+                 </b></p>
             </div>
             <div>
-                <h3> Ir contato</h3>
+                
+                <Button variant='contained' color='success'id='home_botao'> <Link to='/Contato' id='home_link'> <b>Ir Contato</b></Link></Button>
             </div>
 
         </div>
