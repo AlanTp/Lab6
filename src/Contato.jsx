@@ -1,5 +1,4 @@
 import react from 'react';
-import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import './Contato.css';
 
@@ -22,9 +21,9 @@ const Contato = () => {
             </ul>
         </div>
         <div>
-            <Button variant='contained' color='primary' id='contato_botao'>
+          
                 <Link to='/' id='contato_link'><b>Go Home</b></Link>
-            </Button>
+           
         </div>
     </div>
     

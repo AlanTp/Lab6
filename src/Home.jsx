@@ -1,6 +1,5 @@
 import react from 'react';
 import './Home.css';
-import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 
 
@@ -31,8 +30,7 @@ const Home = () =>{
                  </p>
             </div>
             <div>
-               <Button variant='contained' id='home_botao' color='primary'>
-                 <Link to='/Contato' id='home_link'><b>Ir para Contato</b></Link></Button>
+                <Link to='/Contato' id='home_link'><b>Ir para Contato</b></Link>
             </div>
 
         </div>
