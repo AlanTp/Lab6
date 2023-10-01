@@ -1,0 +1,23 @@
+#home_body{
+    text-align: center;
+}
+#home_title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#home_texto{
+    color: black;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#home_botao{
+    margin: 20px;
+}
+#home_link{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;   
+}
